@@ -3,7 +3,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
+                    <h5 class="modal-title">Cargar Imagen</h5>
                     <button (click)="cerrarModal()" type="button" class="close" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -16,7 +16,6 @@
 
                     <input (change)="seleccionImagen ($event.target.files[0])" type="file">
 
-                    <p>Modal body text goes here.</p>
                 </div>
                 <div class="modal-footer">
                     <button (click)="cerrarModal()" type="button" class="btn btn-secondary">Cerrar</button>

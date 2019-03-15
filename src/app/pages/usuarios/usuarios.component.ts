@@ -38,6 +38,7 @@ export class UsuariosComponent implements OnInit {
           });
   }
 
+  
   cambiarDesde( valor: number ) {
     const desde = this.desde + valor;
     if ( desde >= this.totalRegistros ) {
