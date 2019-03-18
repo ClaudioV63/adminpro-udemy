@@ -34,10 +34,10 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
 
 @NgModule({
     declarations: [
+        // PagesComponent,
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
-        PagesComponent,
         IncrementadorComponent,
         GraficoDonaComponent,
         AccountSettingsComponent,
@@ -45,7 +45,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
         RxjsComponent,
         ProfileComponent,
         UsuariosComponent,
-        ModalUploadComponent,
+        // ModalUploadComponent,
         HospitalesComponent,
         MedicosComponent,
         MedicoComponent,
@@ -55,7 +55,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
         DashboardComponent,            // Porque necesito usarlos desde otros lugares que no sólo sean el módulo de 'pages'
         ProgressComponent,
         Graficas1Component,
-        PagesComponent
+        // PagesComponent
     ],
     imports: [
         SharedModule,

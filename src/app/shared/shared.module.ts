@@ -1,3 +1,4 @@
+import { ModalUploadComponent } from './../components/modal-upload/modal-upload.component';
 import { NgModule } from '@angular/core';
 
 import { HeaderComponent } from './header/header.component';
@@ -23,13 +24,15 @@ import { PipesModule } from '../pipes/pipes.module';
         HeaderComponent,
         SidebarComponent,
         BreadcrumbsComponent,
-        NopagefoundComponent
+        NopagefoundComponent,
+        ModalUploadComponent
     ],
     exports: [
         HeaderComponent,
         SidebarComponent,
         BreadcrumbsComponent,
-        NopagefoundComponent
+        NopagefoundComponent,
+        ModalUploadComponent
     ]
 })
 
